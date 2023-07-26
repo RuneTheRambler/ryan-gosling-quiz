@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: white;
+}
+
+.container {
+    text-align: center;
+}
+
+.ryan-gosling-img {
+    width: 150px; /* Adjust the size to your preference */
+    height: auto;
+    border-radius: 50%;
+    margin: 20px 0;
+}
+
+.submit-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #45a049;
+}
